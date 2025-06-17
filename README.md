@@ -1,5 +1,5 @@
 ---
-title: Sony Smart Home porting analysis
+title: Project Porting analysis
 status: implementable
 authors: "Gao Feng"
 creation-date: 2025-06-11
