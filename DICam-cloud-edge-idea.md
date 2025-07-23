@@ -1,4 +1,4 @@
-## 利用 KubeEdge 实现智能 Vlog 云边协同系统方案
+# 利用 KubeEdge 实现智能 Vlog 云边协同系统方案
 
 ### 1. KubeEdge 简介
 
@@ -80,7 +80,7 @@
 - 通过消息总线和 CRD 机制，实现智能控制、自动上传和多设备协同。
 - 云端可以专注于高算力任务，如视频剪辑、内容审核与发布。
 
-## Edge-Cloud Vlog System: 
+# Edge-Cloud Vlog System: 
 
 ### 🧭 项目目标和实现功能
 
