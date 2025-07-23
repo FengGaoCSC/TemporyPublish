@@ -30,8 +30,9 @@
 
 ### 🔀Doc & maunal prepare
 
+---
 
-### 📌经过和Duan-san的确认：
+## 📌经过和Duan-san的确认：
 1。 先开始部署各个IOT 相关的模块（按照机器连携.docx) 看看那一步会有问题， DeviceID Duan-san 会给出
 2. WEB app 认证 和 Authentication 是 不用我们关心的， 到时候 会给我们一个Presigned-URL, MQtt Client只要PUT上去就行
    - KVS 验证
