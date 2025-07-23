@@ -147,7 +147,7 @@
           │                   │
     ┌─────▼─────┐       ┌─────▼─────┐
     │ Edge Node │       │ Edge Node │
-    │ (Raspberry│       │ Jetson/   │
+    │ (Raspberry│       │           │
     │  Pi)      │       │ Other HW) │
     └───────────┘       └───────────┘
     │  AI模型容器          │ AI模型容器
