@@ -24,7 +24,7 @@ AWS KVS
    - 📛Sony account (how to ?) 
    - 📛MT service(storage) 
    - 📛How to use Sony Account OAuth to create MT service storage pre-signed URL
-2. mqtt client with pre-configured device ID or x509 key (need tobe implementated) to be authenticated
+2. mqtt client with pre-configured device ID or x509 key (need to be implemented) and authenticated
 3. mqtt use the presigned URL to PUT data to Storage 
 4. Simple test
 
