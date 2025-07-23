@@ -1,14 +1,14 @@
 ## Direct upload pre-check breakdown 
 
 ### step 1: AWS Account and Resource creation
-AWS IAM 
-AWS s3
-AWS Route53
-AWS API gateway
-AWS SQS
-AWS DynomDB
-AWS IoT(core, management, ~~defender~~) 
-AWS KVS
+- AWS IAM 
+- AWS s3
+- AWS Route53
+- AWS API gateway
+- AWS SQS
+- AWS DynomDB
+- AWS IoT(core, management, ~~defender~~) 
+- AWS KVS
 
 ### step2: No OAUTH direct link upload (port 1883)
 1. 📛 mqtt client / Camera ? 
