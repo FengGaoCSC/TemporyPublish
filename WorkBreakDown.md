@@ -14,7 +14,7 @@
   - ✅ AWS SQS 
   - ~~AWS DynomDB~~
   - ✅ AWS IoT(core, management, ~~defender~~) -> Config/Get the MQtt endpoint  
-  - AWS KVS
+  - ✅ AWS KVS
 - 🔀 Simple Mqtt client(by python without authentication on port 1883)
   - **phase1**: 
     - ✅ just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
