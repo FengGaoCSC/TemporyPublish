@@ -29,7 +29,8 @@
   - Phase 2: 
     - support PTP to get the pre-signed URL from APP。 
     - Mqtt client using the pre-signed URL to PUT images by TLS over port：8883（❓here maybe not AWS IoT endpoint since )
-    - WebRTC to AWS KVS
+    - ❗Mqtt client parameters: Device ID & Key 由 Duan-san 提供
+    - WebRTC to AWS KVS verification.
 - 🔀 ❗Pre-signed URL & user with deviceID relationship 
   - ❗Duan-san will provide, device direct upload don't need care.
  
