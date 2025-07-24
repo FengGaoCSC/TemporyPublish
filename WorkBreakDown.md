@@ -59,7 +59,9 @@
       - AWS IoT(core, management, ~~defender~~) -> Config/Get the MQtt endpoint  
       - AWS KVS 
     - 🔀 Simple Mqtt client(by python without authentication on port 1883)
-      - **phase1**: just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
+      - **phase1**: 
+        - just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
+        - verify S3 bucket, Mqtt client could use to put something
 
 ### 📌 Task 2: (can parall with task 1)
     - 🔀 Deploy the system according 器連携PF_デプロイマニュアル.docx
