@@ -26,7 +26,7 @@
 
 ### 📌 Task 3:
 - 🔀 Simple Mqtt client
-  - Phase 2: 
+  - **Phase 2:** 
     - support PTP to get the pre-signed URL from APP。 
     - Mqtt client using the pre-signed URL to PUT images by TLS over port：8883（❓here maybe not AWS IoT endpoint since )
     - ❗Mqtt client parameters: Device ID & Key 由 Duan-san 提供
