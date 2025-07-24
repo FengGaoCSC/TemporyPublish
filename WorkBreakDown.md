@@ -51,26 +51,26 @@
   - Tecent cloud storage service
 
 ### 📌 Task 1:
-    - 🔀 Resource creation 
-      - AWS Route53 (❓DNS name need Duan-san provide)
-      - ~~AWS API gateway~~
-      - AWS SQS
-      - ~~AWS DynomDB~~
-      - AWS IoT(core, management, ~~defender~~) -> Config/Get the MQtt endpoint  
-      - AWS KVS 
-    - 🔀 Simple Mqtt client(by python without authentication on port 1883)
-      - **phase1**: 
-        - just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
-        - verify S3 bucket, Mqtt client could use to put something
+- 🔀 Resource creation 
+  - AWS Route53 (❓DNS name need Duan-san provide)
+  - ~~AWS API gateway~~
+  - AWS SQS
+  - ~~AWS DynomDB~~
+  - AWS IoT(core, management, ~~defender~~) -> Config/Get the MQtt endpoint  
+  - AWS KVS
+- 🔀 Simple Mqtt client(by python without authentication on port 1883)
+  - **phase1**: 
+    - just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
+    - verify S3 bucket, Mqtt client could use to put something
 
 ### 📌 Task 2: (can parall with task 1)
-    - 🔀 Deploy the system according 器連携PF_デプロイマニュアル.docx
-      - If any question or configuration need,(❗ Duan-san could give help)
+- 🔀 Deploy the system according 器連携PF_デプロイマニュアル.docx
+  - If any question or configuration need,(❗ Duan-san could give help)
 
 ### 📌 Task 3:
-    - 🔀 Simple Mqtt client
-      - Phase 2: 
-        - support PTP to get the pre-signed URL from APP。 
-        - Mqtt client using the pre-signed URL to PUT images by TLS over port：8883（❓here maybe not AWS IoT endpoint since )
-    - 🔀 ❗ Pre-signed URL & user with deviceID relationship 
-        - ❗ Duan-san will provide, device direct upload don't need care.
+- 🔀 Simple Mqtt client
+  - Phase 2: 
+    - support PTP to get the pre-signed URL from APP。 
+    - Mqtt client using the pre-signed URL to PUT images by TLS over port：8883（❓here maybe not AWS IoT endpoint since )
+- 🔀 ❗Pre-signed URL & user with deviceID relationship 
+  - ❗Duan-san will provide, device direct upload don't need care.
