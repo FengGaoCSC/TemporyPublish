@@ -80,5 +80,20 @@
 2. WEB app 认证 和 Authentication 是 不用我们关心的， 到时候 会给我们一个Presigned-URL, MQtt Client只要PUT上去就行
    - KVS 验证
    - PUT 验证
-   - APP 给到MQTT Client(模拟相机）的需要通过PTP 
+   - APP 给到MQTT Client(模拟相机）的需要通过PTP
+
+### Notes & verification 
+
+- 🔴 AWS IoT 如何使用本地证书签发认证的过程: know-how & how to implement. 
+```txt
+这个今天验证了以下本地签名：
+步骤： 
+1. 使用openssl 生成root ca
+2. 使用 openssl 生成设备名camera001的public key & private key
+3. 本地签名
+4. AWS console IoT 界面配置多设备选项，并应用相应的policy (我们使用testThing的policy) 选择x509认证并上传第一步本地root ca到AWS IoT core 
+5. 使用昨天写的mqtt client 程序, 参数为AWS root ca, device ID, 第2，3步生成的private key和签名，IoT endpint 即可connect AWS IoT.
+6. 云端AWS IoT -> things下会自动创建相应的things, name=device name, 该过程全自动， 无需手动配置
+```
+
 
