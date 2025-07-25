@@ -15,7 +15,7 @@
   - ~~AWS DynomDB~~
   - ✅ AWS IoT(core, management, ~~defender~~) -> Config/Get the MQtt endpoint  
   - ✅ AWS KVS
-- 🔀 Simple Mqtt client(by python without authentication on port 1883)
+- 🔀 Simple Mqtt client(by python authentication on port 8883)
   - **phase1**: 
     - ✅ just can connect to AWS IoT endpoint w/o authentication on port 1883 is OK
     - ✅ verify S3 bucket, Mqtt client could use to put something
