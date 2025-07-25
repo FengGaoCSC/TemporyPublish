@@ -27,11 +27,13 @@
 
 ### 📌 Task 3:
 - 🔀 Simple Mqtt client
-  - **Phase 2:** 
+  - **Phase 2:**
+    - 🔴 AWS IoT 如何使用本地证书签发认证的过程: know-how & how to implement.   
     - support PTP to get the pre-signed URL from APP。 
     - Mqtt client using the pre-signed URL to PUT images by TLS over port：8883（❓here maybe not AWS IoT endpoint since )
     - ❗Mqtt client parameters: Device ID & Key 由 Duan-san 提供
     - AWS KVS （kenises video stream) verification .
+    - 🔴 Mqtt client `put` 后需要publish 一个URL让别人知道（即使用该kvneis list URL可以直接访问该上传资源） 
 - 🔀 ❗Pre-signed URL & user with deviceID relationship 
   - ❗Duan-san will provide, device direct upload don't need care.
  
