@@ -35,7 +35,10 @@
     - ✅ AWS KVS （kenises video stream) verification .
     - 🔴 ✅Mqtt client `put` 后需要publish 一个URL让别人知道（即使用该kvneis list URL可以直接访问该上传资源） 
 - 🔀 ❗Pre-signed URL & user with deviceID relationship 
-  - ❗Duan-san will provide, device direct upload don't need care.
+  - Duan-san provide
+    - multipart API
+    - Singed URL for trailer.mp4,
+    - device client using above to direct upload.
  
 ---
 
