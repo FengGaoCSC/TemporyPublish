@@ -98,5 +98,29 @@
 5. 使用昨天写的mqtt client 程序, 参数为AWS root ca, device ID, 第2，3步生成的private key和签名，IoT endpint 即可connect AWS IoT.
 6. 云端AWS IoT -> things下会自动创建相应的things, name=device name, 该过程全自动， 无需手动配置
 ```
+```txt
+S3 pre-signed url tempoary credential
+1. create s3 access role
+2. create s3 access policy
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws-cn:s3:::test-thing-bucket/${iot:ThingName}/*"
+            ]
+        }
+    ]
+}
+3. create alias role name and enable assume alias role
+4. get the url of the alias role
+5. device to get the assumeed alias role credential through the alias role
+6. device was under control of this alias role and access policy
+```
 
 
