@@ -39,6 +39,18 @@
     - multipart API
     - Singed URL for trailer.mp4,
     - device client using above to direct upload.
+
+### 📌 Task 4:
+- 🔀 Final Mqtt client
+  - **Implement the following feature into one process**
+    - Support PTP to get the pre-signed URL from APP。 
+    - Mqtt client using the pre-signed URL to PUT images
+    - AWS KVS （kenises video stream) verification .
+    - Mqtt client `put` 后需要publish 一个URL让别人知道（即使用该kvneis list URL可以直接访问该上传资源） 
+- 🔀 Document
+  - AWS configuration manual
+  - Mqtt client usage manual
+    
  
 ---
 
