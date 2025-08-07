@@ -39,21 +39,21 @@
     - ✅Singed URL for trailer.mp4,
     - ✅device client using above to direct upload.
 - 🔀 PTP over KVS webrtc 
-  - 1. 模拟WebApp链接到KVS webrtc
-  - 2. mqtt client（模拟相机） 链接到 web rtc
-  - 3. webAPP 使用PTP over webrtc 将pre-signed URL 传递给mqtt client（模拟相机）
-  - 4. mqtt client（模拟相机）使用该pre-signed URL 上传给MT并发送通知 
+  - 1. ✅模拟WebApp链接到KVS webrtc
+  - 2. ✅mqtt client（模拟相机） 链接到 web rtc
+  - 3. ✅webAPP 使用PTP over webrtc 将pre-signed URL 传递给mqtt client（模拟相机）
+  - 4. ✅mqtt client（模拟相机）使用该pre-signed URL 上传给MT并发送通知 
 
 ### 📌 Task 4:
-- 🔀 Final Mqtt client
-  - **Implement the following feature into one process**
-    - Support PTP to get the pre-signed URL from APP。 
-    - Mqtt client using the pre-signed URL to PUT images
-    - AWS KVS （kenises video stream) verification .
-    - Mqtt client `put` 后需要publish 一个URL让别人知道（即使用该kvneis list URL可以直接访问该上传资源） 
-- 🔀 Document
-  - AWS configuration manual
-  - Mqtt client usage manual
+- 🔀 ✅Final Mqtt client
+  - ✅**Implement the following feature into one process**
+    - ✅Support PTP to get the pre-signed URL from APP。 
+    - ✅Mqtt client using the pre-signed URL to PUT images
+    - ✅AWS KVS （kenises video stream) verification .
+    - ✅Mqtt client `put` 后需要publish 一个URL让别人知道（即使用该kvneis list URL可以直接访问该上传资源） 
+- 🔀 ✅Document
+  - ✅AWS configuration manual
+  - ✅Mqtt client usage manual
     
  
 ---
